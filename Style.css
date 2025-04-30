@@ -6,14 +6,16 @@
 
 
 body {
-    height: 100vw;
+    height: 200vw;
     background: linear-gradient(
         to bottom,
         rgb(248, 175, 230) 0%,
-        rgb(221, 188, 213) 44%,
+        rgb(221, 188, 213) 22%,
         rgba(223, 223, 223, 0.966) 1%,
-        rgb(233, 241, 114) 45%,
-        rgb(241, 247, 159) 100%
+        rgb(245, 230, 97) 23%,
+        rgb(241, 247, 159) 100%,
+        rgb(255, 255, 255) 100%,
+        rgb(255, 255, 255) 200%
     );
     
 }
@@ -137,4 +139,84 @@ h1 {
       100% {
         transform: rotate(360deg);
       }
+}
+
+#septima {
+    position: absolute;
+    width: 5pc;
+    left: 2%;
+    top: 140%;
+    
+}
+
+#septima2 {
+    position: absolute;
+    width: 5pc;
+    left: 93%;
+    top: 140%;
+}
+
+#septima3 {
+    position: absolute;
+    width: 5pc;
+    left: 2%;
+    top: 225%;
+}
+
+#septima4 {
+    position: absolute;
+    width: 5pc;
+    left: 93%;
+    top: 225%;
+}
+
+
+#primero {
+    position: absolute;
+    text-align: center;
+    left: 8%;
+    top: 139%;
+    font-size: 2pc;
+}
+
+#primero2 {
+    position: absolute;
+    text-align: center;
+    left: 62%;
+    top: 139%;
+    font-size: 2pc;
+}
+
+
+#octava {
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(252, 129, 129);
+    position: absolute;
+    width: 35pc;
+    height: 40pc;
+    left: 8%;
+    top: 155%;
+    transform: rotateZ(355deg);
+}
+
+#octava2 {
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(252, 129, 129);
+    position: absolute;
+    width: 35pc;
+    height: 40pc;
+    left: 9%;
+    top: 153%;
+    transform: rotateZ(355deg);
+}
+
+
+#octava3 {
+    border: 11px solid white;
+    position: absolute;
+    width: 35pc;
+    height: 40pc;
+    left: 10%;
+    top: 150%;
+    transform: rotateZ(355deg);
 }
