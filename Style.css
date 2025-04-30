@@ -1,7 +1,23 @@
+@font-face {
+    font-family: 'Gulf Display';
+    src: url('GulfsDisplay-Normal.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+
 body {
-    background-color: pink;
+    height: 100vw;
+    background: linear-gradient(
+        to bottom,
+        rgb(238, 144, 214) 0%,
+        rgb(238, 144, 214) 30%,
+        rgb(233, 241, 114) 30%,
+        rgb(233, 241, 114) 100%
+    );
     
 }
+
+
 
 #Inicial {
     width: 30%;
@@ -11,9 +27,9 @@ body {
 
 h1 {
     color: blue;
-    font-family: Gulfs display;
     text-align: center;
     font-size: 6pc;
+    font-family: 'Gulf Display';
 }
 
 #primera {
