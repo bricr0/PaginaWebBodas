@@ -640,3 +640,199 @@ a:hover {
     right: 5%;  
     top: 90%;
 }
+
+#noveno {
+    position: absolute;
+    width: 23pc;
+    height: 39.1pc;
+    right: 81%;
+    top: 425%;
+    background-color: rgb(250, 250, 105);
+    border: 2px solid black;
+}
+
+#fotos {
+    position: relative;
+    color:  rgb(61, 76, 211);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 10%;
+}
+
+#pregunta3 {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    right: 5%;  
+    top: 30%;
+}
+
+#decimo {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 400%;
+    background-color: rgb(255, 255, 255);
+    width: 15pc;
+    height: 8pc;
+    top: 40%;
+    left: 15%;
+}
+
+#numero {
+    color: palevioletred;
+    position: absolute;
+    color: rgb(245, 103, 214);
+    width: 5pc;
+    border-radius: 60%;
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    left: 38%;  
+    top: 45%;
+}
+
+#cartoce{
+    position: absolute;
+    height: 3pc;
+    border-radius: 60px; 
+    left: 20%;  
+    bottom: 46%;
+
+}
+
+#cartoce2 {
+    position: absolute;
+    height: 3pc;
+    border-radius: 60px; 
+    left: 64%;  
+    bottom: 46%;
+
+}
+
+
+#no4 {
+    position: relative;
+    color:  rgb(61, 76, 211);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 40%;
+}
+
+#four {
+    position: absolute;
+    width: 50pc;
+    height: 39.1pc;
+    right: 38%;
+    top: 425%;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+#lugar {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    left: 5%;
+}
+
+#pregunta5 {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    left: 60%;  
+    top: 20%;
+}
+
+
+#region {
+    position: absolute;
+    color: white;
+    font-size: 1pc;
+    font-family: 'Anybody', sans-serif;
+    left: 60%;
+    top: 10%;
+}
+
+#mapa {
+    position: absolute;
+    height: 60%;
+    left: 10%;
+}
+
+#five {
+    position: absolute;
+    width: 43pc;
+    height: 19.5pc;
+    left: 62%;
+    top: 425%;
+    background-color: rgb(238, 98, 98);
+    border: 2px solid black;
+}
+
+#total {
+    position: relative;
+    color: rgb(237, 140, 250);
+    text-align: left;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    left: 5%;
+
+}
+
+#total2 {
+    position: relative;
+    color: rgb(255, 241, 113);
+    text-align: left;
+    font-size: 5pc;
+    font-family: 'Gulf Display';
+    left: 10%;
+
+}
+
+
+#six {
+    position: absolute;
+    width: 43pc;
+    height: 19.6pc;
+    left: 62%;
+    top: 457%;
+    background-color: rgb(255, 152, 152);
+    border: 2px solid black;
+}
+
+#envia {
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    left: 5%;
+
+}
+
+#email {
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 2pc;
+    font-family: 'Anybody', sans-serif;
+    
+}
+
+#yanose {
+    position: absolute;
+    bottom: 190%;
+    right: 140%;
+}
+
+#yanose2 {
+    position: absolute;
+    bottom: 190%;
+    right: 38%;
+}
