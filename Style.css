@@ -13,8 +13,8 @@ body {
         rgb(221, 188, 213) 22%,
         rgba(223, 223, 223, 0.966) 1%,
         rgb(245, 230, 97) 23%,
-        rgb(241, 247, 159) 100%,
-        rgb(255, 255, 255) 100%,
+        rgb(241, 247, 159) 63%,
+        rgb(255, 255, 255) 66%,
         rgb(255, 255, 255) 200%
     );
     
@@ -45,7 +45,7 @@ a:hover {
     color: rgb(82, 82, 221)
 }
 
-h1 {
+#first {
     position: absolute;
     color: blue;    
     text-align: center;
@@ -212,11 +212,56 @@ h1 {
 
 
 #octava3 {
-    border: 11px solid white;
+    border: 13px solid white;
     position: absolute;
-    width: 35pc;
+    width: 33pc;
     height: 40pc;
     left: 10%;
-    top: 150%;
+    top: 149%;
     transform: rotateZ(355deg);
+}
+
+#contenido {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 135%;
+}
+
+#second {
+    position: relative;
+    color: blue;
+    text-align: left;
+    font-size: 10pc;
+    font-family: 'Gulf Display';
+}
+
+#palabras {
+    position: absolute;
+    text-align: left;
+    font-size: 25px;
+    top: 78%;
+    font-family: "Anybody", sans-serif;
+}
+
+#uno {
+    position: absolute;
+    text-align: left;
+    font-family: 'Gulf Display';
+    font-size: 3pc;
+    top: 104%;
+}
+
+#novena {
+    position: absolute;
+    height: 11pc;
+    left: 50%;
+    top: 104%;
+}
+
+#novena2 {
+    position: absolute;
+    height: 11pc;
+    left: 70%;
+    top: 104%;
 }
