@@ -357,3 +357,286 @@ a:hover {
     top: 308%;
     left: 91%;
 }
+
+#one {
+    position: absolute;
+    width: 47pc;
+    height: 21pc;
+    right: 59%;
+    top: 360%;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+#paquete {
+    position: relative;
+    color: rgb(238, 98, 98);
+    text-align: left;
+    font-size: 4pc;
+    font-family: 'Gulf Display';
+    left: 5%;
+}
+
+#two {
+    position: absolute;
+    width: 47pc;
+    height: 21pc;
+    right: 59%;
+    top: 390%;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+#horas {
+    position: relative;
+    color: rgb(33, 47, 172);
+    text-align: left;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    left: 5%;
+}
+
+#pregunta5 {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    left: 60%;  
+    top: 20%;
+}
+
+#horaas {
+    position: absolute;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 5pc;
+    border-radius: 60%;
+    text-align: center;
+    font-size: 2pc;
+    font-family: 'Gulf Display';
+    left: 80%;  
+    top: 17%;
+}
+
+
+#tres {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: rgb(250, 250, 105);
+    width: 650px;
+    height: 20px;
+    top: 50%;
+    left: 10%;
+}
+
+#once {
+    position: absolute;
+    height: 6pc;
+    width: 10pc;
+    border-radius: 60px; 
+    left: 10%;  
+    bottom: 30%;
+    transform: translateX(0);
+    animation: mover-izquierda 2s linear infinite;
+}
+
+@keyframes mover-izquierda {
+    10% {
+      transform: translateX(0); /*  Posición inicial */
+    }
+    100% {
+      transform: translateX(300%); /* Posición final (izquierda) */
+    }
+  }
+
+#cuatro {
+    position: absolute;
+    width: 25pc;
+    height: 39.1pc;
+    right: 38%;
+    top: 360%;
+    background-color: rgb(255, 253, 144);
+    border: 2px solid black;
+}
+
+#compromiso {
+    position: relative;
+    color:  rgb(238, 98, 98);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 10%;
+}
+
+#pregunta {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    right: 1%;  
+    top: 30%;
+}
+
+#quinto {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 400%;
+    background-color: rgb(255, 121, 121);
+    width: 20pc;
+    height: 8pc;
+    top: 50%;
+    left: 10%;
+}
+
+#doce {
+    position: absolute;
+    background-color: black;
+    border: 4px solid #000000;
+    height: 6pc;
+    border-radius: 60px; 
+    left: 19%;  
+    bottom: 31%;
+}
+
+#doce2 {
+    position: absolute;
+    background-color: #000000;
+    border: 3px solid #000000;
+    height: 5pc;
+    border-radius: 60px; 
+    left: 21%;  
+    bottom: 33%;
+    animation: rotacion 2s  linear infinite;
+}
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
+
+#no {
+    position: relative;
+    color:  rgb(238, 98, 98);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 40%;
+}
+
+#sexto {
+    position: absolute;
+    width: 25pc;
+    height: 39.1pc;
+    right: 16%;
+    top: 360%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#ceremonia {
+    position: relative;
+    color:  rgb(33, 47, 172);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 10%;
+}
+
+#pregunta2 {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    left: 90%;  
+    top: 30%;
+}
+
+#septimo {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 400%;
+    background-color: rgb(237, 140, 250);
+    width: 20pc;
+    height: 8pc;
+    top: 50%;
+    left: 10%;
+}
+
+#no2 {
+    position: relative;
+    color:  rgb(33, 47, 172);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 40%;
+}
+
+#octavo {
+    position: absolute;
+    width: 19pc;
+    height: 39.1pc;
+    left: 83%;
+    top: 360%;
+    background-color: rgb(61, 76, 211);
+    border: 2px solid black;
+}
+
+#digital {
+    position: relative;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 10%;
+}
+
+#pregunta3 {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    right: 5%;  
+    top: 30%;
+}
+
+#trece{
+    position: absolute;
+    height: 10pc;
+    border-radius: 60px; 
+    left: 21%;  
+    bottom: 33%;
+    animation: rotacion 2s  linear infinite;
+}
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
+
+#no3 {
+    position: relative;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3pc;
+    font-family: 'Gulf Display';
+    top: 40%;
+}
+
+#pregunta4 {
+    position: absolute;
+    color:  rgb(238, 98, 98);
+    height: 1pc;
+    border-radius: 60px; 
+    right: 5%;  
+    top: 90%;
+}
