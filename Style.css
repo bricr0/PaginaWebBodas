@@ -6,16 +6,17 @@
 
 
 body {
-    height: 200vw;
+    height: 500vw;
     background: linear-gradient(
         to bottom,
         rgb(248, 175, 230) 0%,
-        rgb(221, 188, 213) 22%,
+        rgb(221, 188, 213) 9%,
         rgba(223, 223, 223, 0.966) 1%,
-        rgb(245, 230, 97) 23%,
-        rgb(241, 247, 159) 63%,
-        rgb(255, 255, 255) 66%,
-        rgb(255, 255, 255) 200%
+        rgb(245, 230, 97) 10%,
+        rgb(241, 247, 159) 25%,
+        rgb(255, 255, 255) 27%,
+        rgb(255, 255, 255) 35%,
+        rgb(240, 87, 87) 36%
     );
     
 }
@@ -264,4 +265,95 @@ a:hover {
     height: 11pc;
     left: 70%;
     top: 104%;
+}
+
+
+#decima {
+    position: absolute;
+    height: 30pc;
+    width: 20pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 253%;
+    right: 85%;
+}
+
+#decima2 {
+    position: absolute;
+    height: 30pc;
+    width: 22pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 253%;
+    left: 16%;
+}
+
+#decima3 {
+    position: absolute;
+    height: 30pc;
+    width: 40pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 253%;
+    left: 36%;
+}
+
+#decima4 {
+    position: absolute;
+    height: 30pc;
+    width: 22pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 253%;
+    left: 72%;
+}
+
+#decima5 {
+    position: absolute;
+    height: 30pc;
+    width: 9pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 253%;
+    left: 92%;
+}
+
+#decima6 {
+    position: absolute;
+    height: 30pc;
+    width: 40pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 308%;
+    right: 66%;
+}
+
+#decima7 {
+    position: absolute;
+    height: 30pc;
+    width: 22pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 308%;
+    left: 35%;
+}
+
+#decima8 {
+    position: absolute;
+    height: 30pc;
+    width: 40pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 308%;
+    left: 55%;
+}
+
+#decima9 {
+    position: absolute;
+    height: 30pc;
+    width: 10pc;
+    border: 1px solid black;
+    border-radius: 60px;
+    top: 308%;
+    left: 91%;
 }
