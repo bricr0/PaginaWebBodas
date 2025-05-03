@@ -13,8 +13,8 @@
 <body>
     <div id="SeccionInicial">
         <div id="secciones">
-            <img src="img/5fc5b7daf46a9b00a66bf021_nav-heart.svg"><a href="seccionnosotros">Nosotros</a>
-            <img src="img/5fc5b7dace2996029a332c01_nav-star.svg"><a>Galeria</a>
+            <img src="img/5fc5b7daf46a9b00a66bf021_nav-heart.svg"><a href="#seccionnosotros">Nosotros</a>
+            <img src="img/5fc5b7dace2996029a332c01_nav-star.svg"><a href="#secciongaleria">Galeria</a>
             <img src="img/5fc5b7d9d088cd3b91add7e7_nav-flower.svg"><a>Precios</a>
             <img src="img/5fc5b7dabad27a31ffba4fc4_nav-shape.svg"><a>Contacto</a>
         </div>
@@ -83,18 +83,18 @@
         </div>
         <div id="cuatro">
             <h3 id="compromiso">SESION DE COMPROMISO</h3>
-            <img id="pregunta" src="img/image (9).svg">
-            <div id="quinto"></div>
-            <img id="doce" src="img/image (5).svg">
-            <img id="doce2" src="img/image (10).svg">
+            <div class="toggle-switch">
+                <input class="toggle-input" id="toggle" type="checkbox">
+                <label class="toggle-label" for="toggle"></label>
+              </div>              
             <p id="no">NO</p>
         </div>
         <div id="sexto">
             <h3 id="ceremonia">VIDEO DE LA CEREMONIA</h3>
-            <img id="pregunta2" src="img/image (9).svg"> 
-            <div id="septimo"></div>
-            <img id="doce" src="img/image (5).svg">
-            <img id="doce2" src="img/image (10).svg">
+            <div class="toggle-switch2">
+                <input class="toggle-input2" id="toggle2" type="checkbox">
+                <label class="toggle-label2" for="toggle2"></label>
+             </div>              
             <p id="no2">NO</p>
         </div>
         <div id="octavo">
@@ -128,13 +128,55 @@
         <div id="six">
             <div id="pordentro">
             <h1 id="envia">ENVIA MI PAQUETE</h1>
-            <label for="nombre" id="email">Email:</label>
-            <input type="text" id="nombre" name="nombre" required maxlength="30" minlength="3" size="30">
+            <div class="boton-circular">
+                Presiona<br>para<br>capturar
+            </div>    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Correo electrónico">
+            </div>        
         </div>
         <img id="yanose" src="img/5fc840e72a1b792a52e2a647_pricing-rings.svg">
         <img id="yanose2" src="img/5fc840e72a1b79ce7ee2a648_pricing-camera.svg">
     </div>
+    <div id="seccioncontacto">
+        <div id="diossalvame">
+            <div id="perdilacuenta">
+                <img id="music" src="img/5fca1cde6a5f93d39e08d843_music.svg">
+                <img id="yay" src="img/5fca1cdf65765e353de37ac2_yay.svg">
+                <img id="box" src="img/5fca1cdecbd3054f27d813df_box-icon.svg">
+                <img id="rings" src="img/5fca1cde6378b420ebf1fe58_rings.svg">
+                <img id="heart" src="img/5fca1cde9abae95cd4968746_heart.svg">
+                <img id="hand" src="img/5fca1cde39c7dcfdc3dca76d_hand.svg">
+                <img id="stars" src="img/5fca1cdfc7e6383e8a83b1b0_stars.svg">
+                <img id="couple" src="img/5fca1cdf1e13e831103302fa_couple.svg">
+                <img id="loop" src="img/5fca1cde9abae979a9968745_loop.svg">
+                <img id="loopwide" src="img/5fca1cde24622cb51f9bdddd_loop-wide.svg">
+                <img id="smile" src="img/5fca1cdf9abae97ce6968747_smile.svg">
+                <img id="drinks" src="img/5fca1cde9151e558d68f0a87_drinks.svg">
 
-    
+                <h1 id="fecha">CONSULTA TU FECHA</h1>
+                <p id="fecha2">¡Revisemos el calendario para tu GRAN DIA!</p>
+                <p id="fecha3">00/00/000</p>
+                <div id="si"></div>
+                <img id="footer" src="img/5fc9d26abf0e99192eae9cde_footer-arrow-prev.svg">
+                <img id="footer2" src="img/5fc9d26a90f3d96dd459ee12_footer-arrow-next.svg">
+                <div id="loultimo">
+                    <p id="redes">SIGUE NUESTRAS REDES Y CONTACTANOS</p>
+                    <p id="politicas"> POLITICAS DE PRIVACIDAD</p>
+                    <div id="divfacebook">
+                    <img id="facebook" src="img/5fca1a6d65765e6aade3737f_facebook.svg">
+                    </div>
+                    <div id="divinstragram">
+                        <img id="instragram" src="img/5fca1a6e24622cfcec9bcb64_instagram.svg">
+                    </div>
+                    <div id="divemail">
+                        <img id="email" src="img/5fca1a6ef9f03cfe4654e621_email.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="chat">Chat</div>
 </body>
 </html>
