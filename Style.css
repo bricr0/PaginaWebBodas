@@ -164,6 +164,8 @@ a:hover {
       }
 }
 
+/*Nosotros*/
+
 #septima {
     position: absolute;
     width: 5pc;
@@ -289,6 +291,7 @@ a:hover {
     top: 104%;
 }
 
+/*Galeria*/
 
 #decima {
     position: absolute;
@@ -380,6 +383,7 @@ a:hover {
     left: 91%;
 }
 
+/*precios*/
 
 #one {
     position: absolute;
@@ -1217,4 +1221,280 @@ a:hover {
     margin-left: 15px;
     margin-top: 10px;
     width: 30px;
+}
+
+/* Responsive adjustments for 425px and below */
+@media (max-width: 425px) {
+    /* General adjustments */
+    body {
+        height: auto;
+        padding-bottom: 100px;
+    }
+    
+    /* Chat button */
+    #chat {
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    /* Header section */
+    #Inicial {
+        width: 90%;
+        left: 5%;
+        top: 5%;
+        position: relative;
+    }
+    
+    #secciones {
+        text-align: center;
+        font-size: 1rem;
+        word-spacing: 15px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #first {
+        position: relative;
+        font-size: 2rem;
+        text-align: center;
+        top: auto;
+        margin: 20px 0;
+    }
+    
+    /* Main images */
+    #primera, #tercera, #cuarta {
+        position: relative;
+        width: 90%;
+        height: auto;
+        left: auto;
+        top: auto;
+        margin: 20px auto;
+        display: block;
+        border-radius: 20%;
+    }
+    
+    /* Decorative elements */
+    #segundo, #segundo2, #segundo3,
+    #quinta, #quinta2, #sexta {
+        display: none; /* Hide small decorative elements on mobile */
+    }
+    
+    /* Nosotros section */
+    #septima, #septima2, #septima3, #septima4 {
+        display: none;
+    }
+    
+    #primero, #primero2 {
+        position: relative;
+        text-align: center;
+        left: auto;
+        top: auto;
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+    
+    #octava, #octava2, #octava3 {
+        position: relative;
+        width: 90%;
+        height: auto;
+        left: auto;
+        top: auto;
+        margin: 20px auto;
+        transform: none;
+    }
+    
+    #contenido {
+        position: relative;
+        width: 90%;
+        left: auto;
+        top: auto;
+        margin: 0 auto;
+    }
+    
+    #second {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    #palabras {
+        position: relative;
+        text-align: center;
+        font-size: 1rem;
+        top: auto;
+        margin: 20px 0;
+    }
+    
+    #uno {
+        position: relative;
+        text-align: center;
+        font-size: 1.5rem;
+        top: auto;
+    }
+    
+    #novena, #novena2 {
+        display: none;
+    }
+    
+    /* Galeria section */
+    #decima, #decima2, #decima3, #decima4,
+    #decima5, #decima6, #decima7, #decima8, #decima9 {
+        position: relative;
+        width: 90%;
+        height: auto;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 10px auto;
+        display: block;
+    }
+    
+    /* Precios section */
+    #one, #two, #cuatro, #sexto, 
+    #octavo, #noveno, #four, #five, #six {
+        position: relative;
+        width: 90%;
+        height: auto;
+        top: auto;
+        left: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    
+    #paquete, #horas, #compromiso,
+    #ceremonia, #digital, #fotos,
+    #lugar, #total, #envia {
+        font-size: 1.5rem;
+    }
+    
+    .toggle-switch, .toggle-switch2 {
+        transform: scale(0.7);
+        margin: 10px auto;
+    }
+    
+    #tres, #quinto, #septimo, #decimo {
+        width: 80%;
+        margin: 10px auto;
+    }
+    
+    #mapa {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: auto;
+    }
+    
+    .form-group {
+        margin: 20px auto;
+        width: 90%;
+    }
+    
+    .boton-circular {
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+        position: relative;
+        left: auto;
+    }
+    
+    #yanose, #yanose2 {
+        display: none;
+    }
+    
+    /* Contacto section */
+    #diossalvame {
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+        padding: 40px 0;
+    }
+    
+    #music, #yay, #box, #rings,
+    #heart, #hand, #stars,
+    #couple, #loop, #loopwide,
+    #smile, #drinks {
+        display: none; /* Hide decorative elements */
+    }
+    
+    #fecha, #fecha3 {
+        position: relative;
+        left: auto;
+        top: auto;
+        font-size: 2rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    #fecha2 {
+        position: relative;
+        left: auto;
+        top: auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    #si {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    #footer, #footer2 {
+        display: none;
+    }
+    
+    #loultimo {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    
+    #redes, #politicas {
+        text-align: center;
+    }
+    
+    #divfacebook, #divinstragram, #divemail {
+        width: 50px;
+        height: 50px;
+        margin: 10px auto;
+    }
+    
+    /* Adjust all absolute positioned elements to relative */
+    [id*="pregunta"], #region, #horaas, #once,
+    #doce, #doce2, #trece, #cartoce, #cartoce2,
+    #numero, #yanose, #yanose2 {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    
+    /* Input fields */
+    input[type="email"] {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    /* Font size adjustments */
+    label, .NO, .ceremonia-texto, .compromiso-texto,
+    .texto-digital, .texto-digital2, .texto-cabina,
+    .cabina-texto, .lugar, .region, .precio-texto,
+    .dinero {
+        font-size: 1rem;
+    }
 }
